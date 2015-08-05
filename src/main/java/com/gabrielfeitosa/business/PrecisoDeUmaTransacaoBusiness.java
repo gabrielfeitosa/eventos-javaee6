@@ -12,6 +12,6 @@ public class PrecisoDeUmaTransacaoBusiness {
 
 	@TransactionAttribute(TransactionAttributeType.MANDATORY)
 	public void soFuncionoSeTiverUmaTransacao(){
-		System.out.println("Opa, tu tem a transação que eu preciso.");
+		System.out.println("Opa, tu tem a transaÃ§Ã£o que eu preciso.");
 	}
 }

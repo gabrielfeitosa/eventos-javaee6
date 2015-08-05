@@ -12,7 +12,7 @@ import com.gabrielfeitosa.evento.NovaCorEvento;
 public class NotificaClientesBusiness {
 
 	public void notificarNovaCor(String novaCor) {
-		System.out.printf("Já estou mandando as notificações para os clientes sobre a cor %s \n", novaCor);
+		System.out.printf("JÃ¡ estou mandando as notificaÃ§Ãµes para os clientes sobre a cor %s \n", novaCor);
 	}
 	
 	@SuppressWarnings("unused")

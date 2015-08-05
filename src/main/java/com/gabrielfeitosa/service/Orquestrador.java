@@ -43,13 +43,13 @@ public class Orquestrador {
 	
 	@TransactionAttribute(TransactionAttributeType.NEVER)
 	public void seTiverTransacaoQuebraTudo(){
-		System.out.println("Oxem, tu fez cagada! Eu estou em uma transaÁ„o e mesmo assim fui executado.");
+		System.out.println("Oxem, tu fez cagada! Eu estou em uma transa√ß√£o e mesmo assim fui executado.");
 		precisoDeUmaTransacaoBusiness.soFuncionoSeTiverUmaTransacao();
 	}
 
 	@TransactionAttribute(TransactionAttributeType.NEVER)
 	public void nemVenhaMudarACorQueEssaTaBoa(@Observes NovaCorEvento novaCor ){
-		System.out.println("Eita cor feia, quero n„o!!!");
+		System.out.println("Eita cor feia, quero n√£o!!!");
 		precisoDeUmaTransacaoBusiness.soFuncionoSeTiverUmaTransacao();
 	}
 	

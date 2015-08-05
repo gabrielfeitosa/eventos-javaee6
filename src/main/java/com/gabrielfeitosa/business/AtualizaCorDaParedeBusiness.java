@@ -12,7 +12,7 @@ import com.gabrielfeitosa.evento.NovaCorEvento;
 public class AtualizaCorDaParedeBusiness {
 
 	public void atualizar(String novaCor) {
-		System.out.printf("Já estou mudando a cor da parede para %s \n", novaCor);
+		System.out.printf("JÃ¡ estou mudando a cor da parede para %s \n", novaCor);
 	}
 	
 	@SuppressWarnings("unused")
